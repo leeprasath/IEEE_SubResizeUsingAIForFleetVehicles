@@ -12,5 +12,10 @@ The proposed framework is broadly applicable across various connected systems, i
 
 
 # Project Link
-1. Dataset clean and pre-processing - 
-
+All implementation steps, including data preprocessing, clustering, prediction modeling, and subnet resizing logic, are executed in a Jupyter Notebook (.ipynb) file, which contains the complete experimental workflow and result visualizations.
+1. Dataset clean and pre-processing with focus on China geo boundary, normalization and standarzation techniques- https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/01_DatasetVisualize.ipynb
+2. Explore the neighbouring taxi radius tuning parameters, downsized data set and its limitations with Density based clustering logic - https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/02_DBSCAN_ul.ipynb
+3. Feature scalling (3d - spatio temporal changes), UMAP(GPU usage) - to reduce dimensions and predict. Fine tuning the time scale with 11/3 multiplication reduced the outliers and yeilded more clusters. ->  https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/03_HDBSCAN_ul.ipynb. HDBSCAN with gpu -> https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/03_HDBSCAN_ul_gpu.ipynb
+4. Explore soft clustering using problemisitic membership using Gaussian Mixture Mode. - https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/04_GMM_ul.ipynb
+5. Explore dendrograms https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/05_Hierarchical%20Clustering_ul.ipynb
+6. baseline and Random forest classification method. -> https://github.com/leeprasath/IEEE_SubResizeUsingAIForFleetVehicles/blob/main/notebook/07_PreparePredictionModel.ipynb
