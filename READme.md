@@ -1,24 +1,16 @@
-# Python for Data Science and Machine Learning Essential Training
-This is the repository for the LinkedIn Learning course Python for Data Science and Machine Learning Essential Training. The full course is available from [LinkedIn Learning][lil-course-url].
+# AI-Based Subnet Resizing for Fleet Telematics
 
-![lil-thumbnail-url]
 
-Python for Data Science and Machine Learning Essential Training is one of the most popular data science courses at LinkedIn Learning. It has now been updated and expanded to two parts-giving you even more hands-on, real-world Python experience. In part one, instructor Lillian Pierson takes you step by step through a data science and machine learning project: a web scraper that downloads and analyzes data from the web. Along the way, she introduces techniques to clean, reformat, transform, and describe raw data; generate visualizations; remove outliers; perform simple data analysis; and generate web-based graphs using Streamlit. By the end of this course, you'll have acquired basic coding experience that you can take to your organization and quickly apply to your own custom data science and machine learning projects.
+#Project overview
+The exponential growth of IoT-enabled fleet vehicles presents a major challenge in managing IPv4 addresses efficiently. Despite IPv4 offering approximately 4.3 billion unique addresses, this space is becoming increasingly inadequate due to the rapid surge in connected devices. Although IPv6 was designed to overcome this limitation with a vastly larger address space, its adoption remains limited due to incompatibility with IPv4, high migration costs, and lack of support in many industrial hardware systems.
 
-This course is integrated with GitHub Codespaces, an instant cloud developer environment that offers all the functionality of your favorite IDE without the need for any local machine setup. With GitHub Codespaces, you can get hands-on practice from any machine, at any time-all while using a tool that you'll likely encounter in the workplace. Check out the "Using GitHub Codespaces with this course" video to learn how to get started.
+Consequently, optimizing IPv4 utilization remains a critical need, especially in the near term for connected transportation systems. This paper proposes a machine learning–based dynamic network resizing architecture for efficient IPv4 address allocation in large-scale fleet telematics environments. The architecture enables dynamic resizing of subnets using Classless Inter-Domain Routing (CIDR) and Variable Length Subnet Masking (VLSM), guided by adaptive supernet boundary suggestions based on regional payload and mobility patterns.
 
-### Instructor
+Dynamic Host Configuration Protocol (DHCP) is used to manage IP address leasing, while machine learning models enable real-time scalability and efficient address utilization. Theoretical analysis suggests that the proposed approach offers significant scalability and flexibility benefits under varying fleet densities.
 
-Lillian Pierson, P.E.
+The proposed framework is broadly applicable across various connected systems, including GNSS-enabled On-Board Units (OBUs) in fleet vehicles, smart transportation infrastructure, logistics and supply chain networks, connected public transit systems, and industrial IoT deployments—where dynamic IP allocation, mobility-aware subnet resizing, and real-time cloud-based coordination are essential for efficient network scalability.
 
-Engineer, CEO, and Head of Product at Data-Mania
 
-                            
-
-Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/lillian-pierson-p-e?u=104).
-
-[0]: # (Replace these placeholder URLs with actual course URLs)
-
-[lil-course-url]: https://www.linkedin.com/learning/python-for-data-science-and-machine-learning-essential-training-part-1
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHjOZJ6XUrh3Q/learning-public-crop_675_1200/0/1709944557924?e=2147483647&v=beta&t=M7Tpw3XXS2hMAb2QXpJ73m7Bp6awqE82A8jReKHbkPk
+# Project Link
+1. Dataset clean and pre-processing - 
 
